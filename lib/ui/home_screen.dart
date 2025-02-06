@@ -59,7 +59,7 @@ class HomeScreen extends StatelessWidget {
                            title: 'Attendence ', 
                            onTap: () {
                             Navigator.pushReplacement(context,
-                             MaterialPageRoute(builder: (context) => const AttendenceScreen()));
+                             MaterialPageRoute(builder: (context) => const AttendScreen()));
                            }),
                            _buildMenuCard(
                            icon: Icons.beach_access_rounded, 
@@ -67,7 +67,7 @@ class HomeScreen extends StatelessWidget {
                            title: 'Leave', 
                            onTap: () {
                             Navigator.pushReplacement(context,
-                             MaterialPageRoute(builder: (context) => const AttendenceScreen()));
+                             MaterialPageRoute(builder: (context) => const AttendScreen()));
                            }),
                            _buildMenuCard(
                            icon: Icons.history_rounded, 
@@ -75,7 +75,7 @@ class HomeScreen extends StatelessWidget {
                            title: 'History', 
                            onTap: () {
                             Navigator.pushReplacement(context,
-                             MaterialPageRoute(builder: (context) => const AttendenceScreen()));
+                             MaterialPageRoute(builder: (context) => const AttendScreen()));
                            }),
                            _buildMenuCard(
                            icon: Icons.logout, 
