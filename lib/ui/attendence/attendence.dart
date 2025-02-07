@@ -373,9 +373,9 @@ class _AttendScreenState extends State<AttendScreen> {
             icon: Icons.location_off,
             message: 'Pelase enable location services',
             color: Colors.blueGrey);
-        return true;
+        return false;
       }
-    }
+    } return true;
   }
 
   Future<void> _getGeoLocation() async {
